@@ -1,0 +1,6 @@
+Wifi hotspot detection based on power measurements coming from a set of sensors.
+
+Given a sensor network, there is a token that walks around the network. 
+Each time the token goes through an agent (sensor), it measures the power of the signal.
+This way it is possible to refine the position estimate and the probability of an agent being the hotspot.
+This process is modelled as a Markov chain and it is also numerically simulated using Monte Carlo runs to show that the proabilities tend to the theoretical Markov model.
